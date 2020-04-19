@@ -1,0 +1,96 @@
+<data>
+    <Movement>
+        <Command>
+            <Name>north</Name>
+            <Aliases>
+                <Alias>n</Alias>
+            </Aliases>
+            <Description>Move to your north if possible.</Description>
+        </Command>
+        
+        <Command>
+            <Name>east</Name>
+            <Aliases>
+                <Alias>e</Alias>
+            </Aliases>
+            <Description>Move to your east if possible.</Description>
+        </Command>
+        
+        <Command>
+            <Name>south</Name>
+            <Aliases>
+                <Alias>s</Alias>
+            </Aliases>
+            <Description>Move to your south if possible.</Description>
+        </Command>
+        
+        <Command>
+            <Name>west</Name>
+            <Aliases>
+                <Alias>w</Alias>
+            </Aliases>
+            <Description>Move to your west if possible.</Description>
+        </Command>
+    </Movement>
+    
+    <Inventory>
+        <Command>
+            <Name>inventory</Name>
+            <Aliases>
+                <Alias>inv</Alias>
+            </Aliases>
+            <Description>Check your inventory.</Description>
+        </Command>
+        
+        <Command>
+            <Name>get</Name>
+            <Parameters>
+                <Parameter>itemName</Parameter>
+            </Parameters>
+            <Description>Pick up an item by name.</Description>
+        </Command>
+        
+        <Command>
+            <Name>drop</Name>
+            <Parameters>
+                <Parameter>itemName</Parameter>
+            </Parameters>
+            <Description>Drop an item by name.</Description>
+        </Command>
+
+        <Command>
+            <Name>equip</Name>
+            <Parameters>
+                <Parameter>itemName</Parameter>
+            </Parameters>
+            <Description>Equip an item by name.</Description>
+        </Command>
+    </Inventory>
+
+    <Combat>
+        <Command>
+            <Name>kill</Name>
+            <Parameters>
+                <Parameter>playerName</Parameter>
+            </Parameters>
+            <Description>Attack a player in the room by name.</Description>
+        </Command>
+    </Combat>
+    
+    <Misc>
+        <Command>
+            <Name>look</Name>
+            <Description>Check the description of your current room.</Description>
+        </Command>
+        
+        <Command>
+            <Name>help</Name>
+            <Description>Prints this message again.</Description>
+        </Command>
+        
+        <Command>
+            <Name>exit</Name>
+            <Description>Leave the game.</Description>
+        </Command>
+    </Misc>
+</data>

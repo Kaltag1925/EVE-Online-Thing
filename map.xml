@@ -1,0 +1,70 @@
+<data>
+	<Room>
+		<Name>Yulai</Name>
+		<Description>Faction: CONCORD | System Security: 1.0 | What was once a vibrant market hub, after the attack on the CONCORD Bureau at Yulai 9, the system is all but empty.</Description>
+		<Exits>
+			<North>Jita</North>
+			<East>Rens</East>
+			<South>Amarr</South>
+			<West>Dodixie</West>
+		</Exits>
+		<Items>
+			<Item>
+				<Name>Hexa 2500mm Repeating Cannon II</Name>
+				<Description>One of the largest weapons currently in existence, this massive autocannon is designed for extended sieges of stationary installations and other large targets.</Description>
+				<Damage>10</Damage>
+				<Speed>2</Speed>
+			</Item>
+			<Item>
+				<Name>'Gjallarhorn' Explosive Doomsday</Name>
+				<Description>Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</Description>
+				<Damage>2000000</Damage>
+				<Speed>10</Speed>
+			</Item>
+		</Items>
+	</Room>
+	
+	<Room>
+		<Name>Jita</Name>
+		<Description>Faction: Caldari | System Security: 0.9 | A bustling market hub in Caldari space, full of possibilities, and if you're lucky, someone might even double your money for you.</Description>
+		<Exits>
+			<South>Yulai</South>
+		</Exits>
+		<Items>
+			<Item>
+				<Name>Scrap Metal</Name>
+				<Description>Charred and warped scraps of metal, likely from a destroyed ship.</Description>
+			</Item>
+		</Items>
+	</Room>
+	
+	<Room>
+		<Name>Dodixie</Name>
+		<Description>Faction: Gallente | System Security: 0.8 | A central market hub for the Gallente. As you land in system, you see a billboard advertising free holoreels of an unspecified type.</Description>
+		<Exits>
+			<East>Yulai</East>
+		</Exits>
+		<Items>
+			<Item>
+				<Name>X-Rated Holoreel</Name>
+				<Description>X-Rated Holo-Vid reels are a popular type of personal entertainment, especially in Gallente territories. These type of Holoreels are strictly forbidden in the Amarr Empire.</Description>
+			</Item>
+		</Items>
+	</Room>
+	
+	<Room>
+		<Exits>
+			<North>Yulai</North>
+		</Exits>
+		<Name>Amarr</Name>
+		<Description>Faction: Amarr | System Security: 1.0 | The Amarr Empire's premier hub. As you land in system, you are greeted by Amarr battleships patroling the stargates that lead to their empress's home.</Description>
+	</Room>
+	
+	<Room>
+		<Exits>
+			<West>Yulai</West>
+		</Exits>
+		<Name>Rens</Name>
+		<Description>Faction: Minmatar | System Security: 0.9 | A for sure market stop for the days of old. Rens is a quiet system after most market activities migrated to Hek.</Description>
+	</Room>
+</data>
